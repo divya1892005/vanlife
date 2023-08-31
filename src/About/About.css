@@ -1,0 +1,49 @@
+.about-img {
+    width: 590px;
+    height: auto;
+}
+
+.about-text-container {
+    width: auto;
+    height: auto;
+    margin: 50px 40px;
+}
+
+.mainText {
+    font-family: Inter;
+    font-size: 32px;
+    color: black;
+    font-weight: 800;
+}
+
+.about-text1 {
+    padding-top: 2rem;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.box {
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+    background-color: #FFCC8D;
+    margin-top: 2rem;
+    padding: 25px 35px;
+}
+
+.box-text1 {
+    color: black;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+.box-btn {
+    margin-top: 1.5rem;
+    padding: 15px 25px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+}
