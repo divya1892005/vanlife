@@ -11,24 +11,37 @@
 }
 
 body {
-    background-color: var(--bgColor);
+    background-color: #fce8d1;
     box-sizing: border-box;
     font-family: Inter;
 }
 
+.main--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.container {
+    width: 600px;
+    height: auto;
+    border: 5px solid white;
+    background-color: var(--bgColor);
+}
+
 .header {
     width: auto;
-    height: 120px;
+    height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 3rem;
+    padding: 2rem;
 }
 
 .link-btns {
     text-decoration: none;
     color: #4D4D4D;
-    font-size: 25px;
     font-weight: 800;
 }
 
@@ -37,14 +50,14 @@ body {
 }
 
 .right-header {
-    width: 180px;
+    width: 110px;
     height: auto;
     display: flex;
     justify-content: space-between;
 }
 
 .logo {
-    font-size: 32px;
+    font-size: 25.5px;
     font-weight: 900;
     color: black;
 }

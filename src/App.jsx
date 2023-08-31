@@ -7,7 +7,8 @@ import Home from "./Home/Home";
 
 export default function App() {
     return(
-        <div>
+      <div className="main--container">
+        <div className="container">
         <BrowserRouter>
         <div className="header">
             <div>
@@ -27,6 +28,7 @@ export default function App() {
         <footer>
           <span className="footer-text">Ⓒ 2022 #VANLIFE</span>
         </footer>
+        </div>
         </div>
     )
 }

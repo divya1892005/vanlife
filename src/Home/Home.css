@@ -1,19 +1,19 @@
 .image {
-    width: 1366px;
+    width: 590px;
     height: auto;
 }
 
 .text-container {
-    width: 1200px;
+    width: 500px;
     height: auto;
-    margin: 50px 80px;
+    margin: 20px 40px;
     position: absolute;
-    top: 12rem;
+    top: 16rem;
 }
 
 .main-text {
     color: white;
-    font-size: 45px;
+    font-size: 35px;
     font-weight: 800;
     line-height: 42px;
     font-family: Inter;
